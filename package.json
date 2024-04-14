@@ -7,7 +7,7 @@
     "start": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
     "parcel:dev": "parcel",
-    "parcel:build": "parcel build",
+    "parcel:build": "parcel build --public-url /M4.257-PAC1/",
     "clean": "rimraf dist .parcel-cache"
   },
   "keywords": [],
@@ -26,8 +26,13 @@
     "postcss-custom-properties": "^13.3.7",
     "postcss-import": "^16.1.0",
     "postcss-url": "^10.1.3",
+    "posthtml": "^0.16.6",
     "posthtml-doctype": "^1.1.1",
     "posthtml-include": "^2.0.1",
     "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "photoswipe": "^5.4.3",
+    "waait": "^1.0.5"
   }
 }
