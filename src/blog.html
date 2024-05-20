@@ -14,17 +14,19 @@
     <link href="./css/style.css" rel="stylesheet">
 </head>
 
-<body class paper>
+<body class="paper">
     <include src="./html/header/header.blog.html"></include>
     <main class="paper">
         <div class="container">
             <include src="./html/main/main.news.html"></include>
-            <ul class="blog-navigation" role="navigation" aria-label="Paginador">
-                <li><a href="#" class="current">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">…</a></li>
-            </ul>
+            <div role="navigation" aria-label="Paginador">
+                <ul class="blog-navigation">
+                    <li><a href="#" class="current">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">…</a></li>
+                </ul>
+            </div>
         </div>
     </main>
     <include src="./html/footer.html"></include>
