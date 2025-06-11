@@ -1,5 +1,17 @@
 {
     "cSpell.language": "ca,en",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "cSpell.words": [
+        "awmottaz",
+        "Lisicic",
+        "Ninyín",
+        "Ninyin's",
+        "photoswipe",
+        "Terramar",
+        "Thió",
+        "waait",
+        "Zeleste"
+    ],
+    "editor.formatOnSave": true
 }
