@@ -11,7 +11,7 @@
   "scripts": {
     "start": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
-    "parcel:dev": "parcel",
+    "parcel:dev": "parcel serve --open",
     "parcel:build": "parcel build --public-url /M4.257-PAC1/",
     "clean": "rimraf dist .parcel-cache"
   },
