@@ -1,3 +1,5 @@
+[![Deploy Parcel with GitHub Pages](https://github.com/rbuj-UOC/M4.257-PAC1/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/rbuj-UOC/M4.257-PAC1/actions/workflows/jekyll-gh-pages.yml)
+
 # Start
 
 Boilerplate for parcel
