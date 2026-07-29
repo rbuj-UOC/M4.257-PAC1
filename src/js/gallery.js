@@ -13,4 +13,17 @@ lightbox.addFilter('contentErrorElement', (contentErrorElement, content) => {
   el.innerHTML = `<a href="${content.data.src}" target="_blank">The image #${content.slide.index + 1}</a> cannot be loaded</a>`;
   return el;
 });
+
+// Correct the href of anchor elements because Parcel leaves the bundle ID placeholder in href attributes
+const gallery = document.getElementById('gallery--zoom-transition');
+if (gallery) {
+  const links = gallery.querySelectorAll('a');
+  links.forEach(link => {
+    const img = link.querySelector('img');
+    if (img && img.src) {
+      link.href = img.src;
+    }
+  });
+}
+
 lightbox.init();
